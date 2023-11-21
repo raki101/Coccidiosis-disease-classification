@@ -21,7 +21,15 @@ class ClientApp:
 @app.route("/", methods=["GET"])
 @cross_origin()
 def home():
+    return render_template("index1.html")
+
+
+@app.route("/index", methods=["GET"])
+@cross_origin()
+def index():
     return render_template("index.html")
+
+
 
 
 @app.route("/train", methods=["GET", "POST"])
