@@ -1,0 +1,15 @@
+{
+  "name": "coccidiosis-disease-classification",
+  "version": "1.0.0",
+  "description": "1.config.yaml\r 2.update secrets.yaml\r 3.update params.yaml\r 4.update entity\r 5.update the configuration manager\r 6.update components\r 7.update the pipeline\r 8.update main.py\r 9.update the dvc.yaml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^21.5.2"
+  }
+}

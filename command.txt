@@ -1,0 +1,1 @@
+python app.py & tensorboard --logdir artifacts/prepare_callbacks/tensorboard_log_dir
